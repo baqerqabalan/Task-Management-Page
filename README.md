@@ -50,6 +50,7 @@ The API follows RESTful principles with endpoints structured for specific action
 
 1. **GET** `/tasks`: Retrieves all tasks based on optional query parameters for filtering and pagination (e.g., `filter`, `searchTerm`, `page`, `pageSize`).
 2. **GET** `/tasks/{id}`: Retrieves a specific task based on its `id`.
-3. **POST** `/tasks`: Creates a new task. This request expects a body containing task details. This endpoint is also used for user login.
-4. **PATCH** `/tasks/{id}`: Updates an existing task, using the task ID in the URL and task data in the body.
-5. **DELETE** `/tasks/{id}`: Deletes a specific task based on its `id`.
+3. **POST** `/tasks`: Creates a new task. This request expects a body containing task details.
+4. **POST** `/users`: Used for login purpose.
+5. **PATCH** `/tasks/{id}`: Updates an existing task, using the task ID in the URL and task data in the body.
+6. **DELETE** `/tasks/{id}`: Deletes a specific task based on its `id`.
