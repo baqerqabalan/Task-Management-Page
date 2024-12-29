@@ -157,7 +157,7 @@ const WatchListDialog = ({ open, onClose }) => {
                       <TableCell>Status</TableCell>
                     </TableRow>
                   </TableHead>
-                  <TableBody key={index}>
+                  <TableBody>
                     {rows
                       .slice(
                         page * rowsPerPage,
